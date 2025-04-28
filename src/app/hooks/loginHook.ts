@@ -11,8 +11,6 @@ export function useLogin() {
     setLoading(true)
     setError(null)
     try {
-      // Simular retraso
-      await new Promise((resolve) => setTimeout(resolve, 500))
       const employee = employees.find(
         (emp) => emp.username === username && emp.password === password
       )

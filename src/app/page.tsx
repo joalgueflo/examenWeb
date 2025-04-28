@@ -6,7 +6,7 @@ export default function Home() {
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900">SkyTech</h1>
-          <p className="mt-2 text-gray-600">Portal de Empleados</p>
+          <p className="mt-2 text-gray-600">Bienvenido al Protal de Empleados</p>
         </div>
         <LoginForm />
       </div>
